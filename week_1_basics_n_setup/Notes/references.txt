@@ -1,0 +1,7 @@
+Week-1
+
+	My notes
+		1- https://docs.google.com/document/d/1MYb6p92QAFBMQf7nvtaC7NESUCJVh4PMxSit9W_onTg/edit
+		2- 
+	Other Notes:
+		1- https://github.com/ziritrion/dataeng-zoomcamp/blob/main/notes/1_intro.md
