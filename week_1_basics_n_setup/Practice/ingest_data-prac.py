@@ -20,6 +20,7 @@ def main(params):
     url = params.url
     csv_name = 'output.csv'
 
+    # this will ne like "wget https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-01.csv -O <output file-name>"
     os.system(f"wget {url} -O {csv_name}")
 
     engine = create_engine(f'postgresql://{user}:{password}@{host}:{port}/{db}')
