@@ -5,6 +5,12 @@
 * Overview of [Architecture](https://github.com/DataTalksClub/data-engineering-zoomcamp#overview), [Technologies](https://github.com/DataTalksClub/data-engineering-zoomcamp#technologies) & [Pre-Requisites](https://github.com/DataTalksClub/data-engineering-zoomcamp#prerequisites)
 
 
+We suggest to watch the videos in the same order as in this document.
+
+The last video (setting up the environment) is optional, but you can check it earlier 
+if you have troubles setting up the environment and following along the videos.
+
+
 ### Docker + Postgres
 
 [Code](2_docker_sql)
@@ -26,8 +32,13 @@
 * [Running Postgres and pgAdmin with Docker-Compose](https://www.youtube.com/watch?v=hKI6PkPhpa0&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
   * Why do we need Docker-compose
   * Docker-compose YAML file
-  * Running multuple containers with `docker-compose up`
-* SQL refreshser (WIP)
+  * Running multiple containers with `docker-compose up`
+* [SQL refreshser](https://www.youtube.com/watch?v=QEcps_iskgg&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
+  * Adding the Zones table
+  * Inner joins
+  * Basic data quality checks
+  * Left, Right and Outer joins
+  * Group by
 
 
 ### GCP + Terraform
@@ -40,13 +51,15 @@
   * [Video](https://www.youtube.com/watch?v=Hajwnmj0xfQ&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
   * [Companion Notes](1_terraform_gcp)
 * Workshop: Creating GCP Infrastructure with Terraform
-  * [Audio](https://drive.google.com/file/d/1IqMRDwJV-m0v9_le_i2HA_UbM_sIWgWx/view?usp=sharing) (Video had technical issues and will be updated soon)
+  * [Video](https://www.youtube.com/watch?v=dNkEgO-CExg&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
   * [Workshop](1_terraform_gcp/terraform)
 * Configuring terraform and GCP SDK on Windows
   * [Instructions](1_terraform_gcp/windows.md)
 
 
 ### Environment setup 
+
+This is an optional part - check it if you have any problems setting up the environment
 
 * [Setting up the environment on cloud VM](https://www.youtube.com/watch?v=ae-CV2KfoN0&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
   * Generating SSH keys
